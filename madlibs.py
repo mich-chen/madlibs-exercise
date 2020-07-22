@@ -45,8 +45,6 @@ def greet_person():
 def show_madlib_form():
     """play game"""
 
-    # player = render_template("goodbye.html", )
-
     response = request.args.get("play-game")
 
     if response == "no":
@@ -55,6 +53,14 @@ def show_madlib_form():
     # if response is yes
     else:
         return render_template("game.html")
+
+@app.route('/madlib')
+def show_madlib():
+
+    person = request.args.get("madlib-person")
+    color = 
+    noun = 
+    adjective = 
 
         
 
