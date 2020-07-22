@@ -9,28 +9,35 @@
         Please pick a:
         <br><br>
 
-        Person:
-        <input type="text" name="person">
-        <br>
+        <label>Person:</label>
+            <input type="text" name="person">
+            <br>
 
-        Color:
-        <select name="color">
-            <!-- prompt is selected as the default to show -->
-            <option value="prompt" selected>select a color</option>
-            <option value="red">Red</option>
-            <option value="goldenrod">Gold</option>
-            <option value="lavendar">Lavendar</option>
-            <option value="no-like">I don't like colors</option>
-        </select>
-        <br>
+        <label>Color:</label>
+            <select name="color">
+                <!-- prompt is selected as the default to show -->
+                <option value="prompt" selected>select a color</option>
+                <option value="red">Red</option>
+                <option value="goldenrod">Gold</option>
+                <option value="lavendar">Lavendar</option>
+                <option value="no-like">I don't like colors</option>
+            </select>
+            <br>
 
-        Noun:
-        <input type="text" name="noun">
-        <br>
+        <label>Noun:</label>
+            <input type="checkbox" name="noun" value="donut">
+            <label>Donut</label>
 
-        Adjective:
-        <input type="text" name="adjective">
-        <br>
+            <input type="checkbox" name="noun" value="cookie">
+            <label>Cookie</label>
+
+            <input type="checkbox" name="noun" value="milkshake">
+            <label>Milkshake</label>
+            <br>
+
+        <label>Adjective:</label>
+            <textarea name="adjective"></textarea>
+            <br>
 
         <input type="submit">
     </form>
