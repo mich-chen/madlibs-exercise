@@ -1,10 +1,39 @@
 <!doctype html>
 <html>
 <head>
-  <title></title>
+  <title>Game on!</title>
 </head>
 <body>
+    <h1>Let's play a game!</h1>
+    <form action="/madlib">
+        Please pick a:
+        <br><br>
 
+        Person:
+        <input type="text" name="person">
+        <br>
+
+        Color:
+        <select name="color">
+            <!-- prompt is selected as the default to show -->
+            <option value="prompt" selected>select a color</option>
+            <option value="red">Red</option>
+            <option value="goldenrod">Gold</option>
+            <option value="lavendar">Lavendar</option>
+            <option value="no-like">I don't like colors</option>
+        </select>
+        <br>
+
+        Noun:
+        <input type="text" name="noun">
+        <br>
+
+        Adjective:
+        <input type="text" name="adjective">
+        <br>
+
+        <input type="submit">
+    </form>
 
 
 
