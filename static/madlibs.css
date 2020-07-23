@@ -17,6 +17,12 @@ h2 {
 }
 
 #hello-form {
-    width: 500px;
+    width: 30%;
     margin: 25px auto;
+    text-align: center;
 }
+
+form {
+    color: purple;
+}
+
