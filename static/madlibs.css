@@ -1,3 +1,11 @@
+
+body {
+    background-image: url("/static/img/background.jpg");
+    background-size: cover;
+
+}
+
+
 p {
     color: purple;
     font-family: sans-serif;
@@ -26,3 +34,6 @@ form {
     color: purple;
 }
 
+#hello-submit {
+    margin-top: 5px;
+}
