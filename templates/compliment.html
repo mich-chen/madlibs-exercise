@@ -3,17 +3,20 @@
 {% block title %}Your Madlib!{% endblock %}
 
 {% block content %}
-    Hi {{ person }}! I think you're {{ compliment }}!
-    <form action="/game">
-        Would you like to play a game?
-        <input type="radio" name="play-game" value="yes">
-        <label>Yes</label>
+    
+    <div id="hello-form">
+        Hi {{ person }}! I think you're {{ compliment }}!
+        <form action="/game">
+            Would you like to play a game?
+            <input type="radio" name="play-game" value="yes">
+            <label>Yes</label>
 
-        <input type="radio" name="play-game" value="no">
-        <label>No</label>
+            <input type="radio" name="play-game" value="no">
+            <label>No</label>
 
-        <input type="submit">
-    </form>
+            <input type="submit">
+        </form>
+    </div>
 
 {% endblock %}
 
