@@ -61,7 +61,7 @@ def show_madlib():
     color = request.args.get("color")
     noun = request.args.getlist("noun")
     # .getlist -> get all the values that has this key "noun" and store as a list
-    print((noun))
+    # print((noun))
     noun = ", ".join(noun)
     adjective = request.args.get("adjective")
     verb = request.args.get("verb")

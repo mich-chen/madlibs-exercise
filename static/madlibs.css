@@ -1,3 +1,11 @@
 p {
-    color: purple;
+    color: #D8BFD8;
+    font-family: sans-serif;
+}
+
+h1 {
+    font-family: sans-serif;
+    color: #E6E6FA;
+    background-color: purple;
+    text-align: center;
 }
