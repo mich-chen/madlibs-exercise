@@ -1,5 +1,5 @@
 p {
-    color: #D8BFD8;
+    color: purple;
     font-family: sans-serif;
 }
 
@@ -8,4 +8,15 @@ h1 {
     color: #E6E6FA;
     background-color: purple;
     text-align: center;
+}
+
+h2 {
+    font-family: cursive;
+    color: purple;
+    background-color: lavender;
+}
+
+#hello-form {
+    width: 500px;
+    margin: 25px auto;
 }

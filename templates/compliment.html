@@ -1,11 +1,9 @@
-<!doctype html>
-<html>
-<head>
-  <title>A Compliment</title>
-</head>
-<body>
-    Hi {{ person }}! I think you're {{ compliment }}!
+{% extends 'base.html' %}
 
+{% block title %}Your Madlib!{% endblock %}
+
+{% block content %}
+    Hi {{ person }}! I think you're {{ compliment }}!
     <form action="/game">
         Would you like to play a game?
         <input type="radio" name="play-game" value="yes">
@@ -16,5 +14,11 @@
 
         <input type="submit">
     </form>
-</body>
-</html>
+
+{% endblock %}
+
+
+
+    
+
+
